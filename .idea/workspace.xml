@@ -7,11 +7,9 @@
     <list default="true" id="c432dc2b-2463-48f5-8d0f-d844f939f13a" name="Changes" comment="Email Spam-Sicher hinzugefügt und Kontaktformilar netlify angepasst">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dienstleistungen.html" beforeDir="false" afterPath="$PROJECT_DIR$/dienstleistungen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/impressum.html" beforeDir="false" afterPath="$PROJECT_DIR$/impressum.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projekte.html" beforeDir="false" afterPath="$PROJECT_DIR$/projekte.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ueber.html" beforeDir="false" afterPath="$PROJECT_DIR$/ueber.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +104,7 @@
       <workItem from="1738619815354" duration="57549000" />
       <workItem from="1738941603384" duration="11800000" />
       <workItem from="1739643745722" duration="9946000" />
-      <workItem from="1765374445132" duration="1123000" />
+      <workItem from="1765374445132" duration="2164000" />
     </task>
     <task id="LOCAL-00001" summary="Veränderung Platzhalter Bilder nicht angezeigt auf Handy">
       <option name="closed" value="true" />
@@ -124,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738955273308</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Email Spam-Sicher hinzugefügt und Kontaktformilar netlify angepasst">
+      <option name="closed" value="true" />
+      <created>1765375608181</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765375608182</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
