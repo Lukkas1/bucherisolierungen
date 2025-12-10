@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c432dc2b-2463-48f5-8d0f-d844f939f13a" name="Changes" comment="7- Auskommentieren Insta &amp; Whatsapp">
+    <list default="true" id="c432dc2b-2463-48f5-8d0f-d844f939f13a" name="Changes" comment="Email Spam-Sicher hinzugefügt und Kontaktformilar netlify angepasst">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dienstleistungen.html" beforeDir="false" afterPath="$PROJECT_DIR$/dienstleistungen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/impressum.html" beforeDir="false" afterPath="$PROJECT_DIR$/impressum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekte.html" beforeDir="false" afterPath="$PROJECT_DIR$/projekte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ueber.html" beforeDir="false" afterPath="$PROJECT_DIR$/ueber.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +38,12 @@
     &quot;assignee&quot;: &quot;Luaevente&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Luaevente/lukasochs_projektarbeit.git&quot;,
-    &quot;accountId&quot;: &quot;1ea66aeb-ba2c-46f5-a3bc-6082d854c1f0&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Lukkas1/bucherisolierungen.git",
+    "accountId": "1ea66aeb-ba2c-46f5-a3bc-6082d854c1f0"
   }
-}</component>
+}]]></component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
       <scroll-view-position x="0" y="0" />
@@ -54,23 +61,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/oooch/Downloads/website",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "watcher.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/oooch/Downloads/website&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\oooch\Dropbox\Unterlagen\Studium\1-GUIE\lukaochs_projektarbeit" />
@@ -99,6 +106,7 @@
       <workItem from="1738619815354" duration="57549000" />
       <workItem from="1738941603384" duration="11800000" />
       <workItem from="1739643745722" duration="9946000" />
+      <workItem from="1765374445132" duration="1123000" />
     </task>
     <task id="LOCAL-00001" summary="Veränderung Platzhalter Bilder nicht angezeigt auf Handy">
       <option name="closed" value="true" />
@@ -125,6 +133,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Veränderung Platzhalter Bilder nicht angezeigt auf Handy" />
     <MESSAGE value="7- Auskommentieren Insta &amp; Whatsapp" />
-    <option name="LAST_COMMIT_MESSAGE" value="7- Auskommentieren Insta &amp; Whatsapp" />
+    <MESSAGE value="Email Spam-Sicher hinzugefügt und Kontaktformilar netlify angepasst" />
+    <option name="LAST_COMMIT_MESSAGE" value="Email Spam-Sicher hinzugefügt und Kontaktformilar netlify angepasst" />
   </component>
 </project>
