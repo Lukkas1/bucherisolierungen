@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bucher Isolierungen Konzept2</title>
+    <title>Bucher Isolierungen Kontakt</title>
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
@@ -30,70 +30,70 @@
     <h2 class="text-center mb-4 text-primary">Kontaktformular</h2>
     <div class="container">
         <hr>
-        <form class="row g-3 needs-validation" novalidate>
+        <form name="kontaktformular" method="POST" data-netlify="true" class="row g-3 needs-validation" novalidate>
             <div class="col-md-6">
                 <label for="inputName" class="form-label">Vorname*</label>
-                <input type="text" class="form-control" id="inputName" placeholder="Max" required pattern="[A-Za-zÄÖÜäöüß ]+">
+                <input type="text" name="vorname" class="form-control" id="inputName" placeholder="Max" required pattern="[A-Za-zÄÖÜäöüß ]+">
                 <div class="invalid-feedback">Bitte geben Sie einen gültigen Vornamen ein</div>
             </div>
 
             <div class="col-md-6">
                 <label for="inputNachname" class="form-label">Nachname*</label>
-                <input type="text" class="form-control" id="inputNachname" placeholder="Mustermann" required pattern="[A-Za-zÄÖÜäöüß ]+">
+                <input type="text" name="nachname" class="form-control" id="inputNachname" placeholder="Mustermann" required pattern="[A-Za-zÄÖÜäöüß ]+">
                 <div class="invalid-feedback">Bitte geben Sie einen gültigen Nachnamen ein</div>
             </div>
 
             <div class="col-md-8">
                 <label for="inputStrasse" class="form-label">Straße*</label>
-                <input type="text" class="form-control" id="inputStrasse" placeholder="Musterstraße" required>
+                <input type="text" name="strasse" class="form-control" id="inputStrasse" placeholder="Musterstraße" required>
                 <div class="invalid-feedback">Bitte geben Sie eine Straße ein</div>
             </div>
 
             <div class="col-md-4">
                 <label for="inputHausnummer" class="form-label">Hausnummer*</label>
-                <input type="text" class="form-control" id="inputHausnummer" placeholder="5a" required pattern="[0-9]+[a-zA-Z]?">
+                <input type="text" name="hausnummer" class="form-control" id="inputHausnummer" placeholder="5a" required pattern="[0-9]+[a-zA-Z]?">
                 <div class="invalid-feedback">Bitte eine gültige Hausnummer eingeben (z.B. 123 oder 9b)</div>
             </div>
 
             <div class="col-md-3">
                 <label for="inputPLZ" class="form-label">PLZ*</label>
-                <input type="text" class="form-control" id="inputPLZ" placeholder="12345" required pattern="\d{5}">
+                <input type="text" name="plz" class="form-control" id="inputPLZ" placeholder="12345" required pattern="\d{5}">
                 <div class="invalid-feedback">Bitte eine 5-stellige Postleitzahl eingeben</div>
             </div>
 
             <div class="col-md-9">
                 <label for="inputStadt" class="form-label">Stadt*</label>
-                <input type="text" class="form-control" id="inputStadt" placeholder="Musterstadt" required>
+                <input type="text" name="stadt" class="form-control" id="inputStadt" placeholder="Musterstadt" required>
                 <div class="invalid-feedback">Bitte geben Sie eine Stadt ein</div>
             </div>
 
             <div class="col-12">
                 <label for="inputTelefonnummer" class="form-label">Telefonnummer*</label>
-                <input type="tel" class="form-control" id="inputTelefonnummer" placeholder="+49 176 7334567" required pattern="^\+?[0-9\s\-]+">
+                <input type="tel" name="telefonnummer" class="form-control" id="inputTelefonnummer" placeholder="+49 176 7334567" required pattern="^\+?[0-9\s\-]+">
                 <div class="invalid-feedback">Bitte eine gültige Telefonnummer eingeben</div>
             </div>
 
             <div class="col-12">
                 <label for="inputEMail" class="form-label">E-Mail*</label>
-                <input type="email" class="form-control" id="inputEMail" placeholder="muster@mail.de" required>
+                <input type="email" name="email" class="form-control" id="inputEMail" placeholder="muster@mail.de" required>
                 <div class="invalid-feedback">Bitte eine gültige E-Mail-Adresse eingeben</div>
             </div>
 
             <div class="col-md-6">
                 <label for="inputRohrgroessen" class="form-label">Rohrgrößen (in mm)</label>
-                <input type="number" class="form-control" id="inputRohrgroessen" placeholder="28" min="1">
+                <input type="number" name="rohrgroessen" class="form-control" id="inputRohrgroessen" placeholder="28" min="1">
                 <div class="invalid-feedback">Bitte eine Größe eingeben</div>
             </div>
 
             <div class="col-md-6">
                 <label for="inputMeter" class="form-label">Ungefähre Meteranzahl</label>
-                <input type="number" class="form-control" id="inputMeter" placeholder="40" min="1">
+                <input type="number" name="meter" class="form-control" id="inputMeter" placeholder="40" min="1">
                 <div class="invalid-feedback">Bitte eine Meteranzahl eingeben</div>
             </div>
 
             <div class="col-12">
                 <label for="inputHeizungsart" class="form-label">Anlagenart*</label>
-                <select class="form-select" id="inputHeizungsart" required>
+                <select class="form-select" name="anlagenart" id="inputHeizungsart" required>
                     <option value="" selected disabled>auswählen...</option>
                     <option value="1">Gas</option>
                     <option value="2">Öl</option>
@@ -108,13 +108,13 @@
 
             <div class="col-12">
                 <label for="fileUpload1" class="form-label">Foto-Upload (optional)</label>
-                <input type="file" class="form-control" id="fileUpload1" accept="image/*" multiple>
+                <input type="file" name="fotos" class="form-control" id="fileUpload1" accept="image/*" multiple>
                 <div class="form-text">Maximal 5 Dateien (jpg, png, pdf)</div>
             </div>
 
             <div class="col-12">
                 <label for="inputAnmerkung" class="form-label">Anmerkung (optional)</label>
-                <textarea rows="3" class="form-control" id="inputAnmerkung"></textarea>
+                <textarea rows="3" name="anmerkung" class="form-control" id="inputAnmerkung"></textarea>
             </div>
 
             <div class="col-12">
@@ -161,7 +161,7 @@
                 <h5>Telefon</h5>
                 <p>+49 151 42097589</p>
                 <h5>E-Mail</h5>
-                <p>info@bucher-isolierungen.de</p>
+                <p class="kontakt-email">platz@halter.de</p>
             </div>
 
             <div class="col mb-3">
