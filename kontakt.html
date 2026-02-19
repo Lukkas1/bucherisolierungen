@@ -8,7 +8,6 @@
 </head>
 <body>
 
-
 <!-- Navbar aus JavaScript-->
 <div id="navbar-placeholder"></div>
 
@@ -101,6 +100,16 @@
             <div class="col-12">
                 <label for="inputAnmerkung" class="form-label">Anmerkung (optional)</label>
                 <textarea rows="3" name="anmerkung" class="form-control" id="inputAnmerkung"></textarea>
+            </div>
+
+            <div class="col-12 mt-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="datenschutzCheck" required>
+                    <label class="form-check-label" for="datenschutzCheck">
+                        Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> zur Kenntnis genommen und stimme zu, dass meine Angaben zur Kontaktaufnahme gespeichert werden.*
+                    </label>
+                    <div class="invalid-feedback">Sie müssen der Datenschutzerklärung zustimmen, um das Formular abzusenden.</div>
+                </div>
             </div>
 
             <div class="col-12">

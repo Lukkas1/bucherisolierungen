@@ -8,24 +8,8 @@
 </head>
 <body>
 
-<!-- Navbar (Grundgerüst von Bootstrap) -->
-<nav class="navbar navbar-expand-lg navbar-dark light sticky-top bg-primary">
-  <div class="container">
-    <a class="navbar-brand text-light fw-bold" href="index.html">Bucher Isolierungen</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link text-light" href="projekte.html">Projekte</a></li>
-        <li class="nav-item"><a class="nav-link text-light" href="dienstleistungen.html">Dienstleistungen</a></li>
-        <li class="nav-item"><a class="nav-link text-light" href="ueber.html">Über mich</a></li>
-        <li class="nav-item"><a class="nav-link text-light" href="kontakt.html">Kontakt</a></li>
-        <li class="nav-item"><a class="nav-link text-light" href="impressum.html">Impressum</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<!-- Navbar aus JavaScript holen-->
+<div id="navbar-placeholder"></div>
 
 <!-- Impressum -->
 <section class="py-5 bg-light">
@@ -35,36 +19,49 @@
     <div class="row featurette">
       <div class="col-md-7">
         <div class="row">
+
           <div class="col-md-6">
-            <h3 class="text-secondary">Adresse</h3>
-            <p>
+            <h3 class="featurette-heading text-secondary">Adresse</h3>
+            <p class="lead">
               Jan Bucher<br>
               Sommerstraße 2a<br>
               86444 Affing
             </p>
-            <h3 class="text-secondary">E-Mail</h3>
-            <p>info@bucher-isolierungen.de</p>
 
-            <h3 class="featurette-heading text-secondary">Vertretungsberechtigter</h3>
-            <p class="lead">Jan Bucher</p>
-            <h3 class="featurette-heading text-secondary">Registereintrag</h3>
-            <p class="lead">Eintragung im Handelsregister: HRB [Nummer]</p>
-          </div>
-          <div class="col-md-6">
-            <h3 class="text-secondary">Telefon</h3>
-            <p>+49 151 42097589</p>
-            <h3 class="text-secondary">Öffnungszeiten</h3>
-            <p>
+            <h3 class="featurette-heading text-secondary">E-Mail</h3>
+            <p class="lead kontakt-email">platz@halter.de</p>
+
+            <h3 class="featurette-heading text-secondary">Telefon</h3>
+            <p class="lead">+49 151 42097589</p>
+
+            <h3 class="featurette-heading text-secondary">Öffnungszeiten</h3>
+            <p class="lead">
               Montag – Freitag:<br>
               7.30 – 16.30 Uhr
             </p>
+          </div>
+
+          <div class="col-md-6">
+            <h3 class="featurette-heading text-secondary">Vertretungsberechtigt</h3>
+            <p class="lead">Jan Bucher</p>
+
+            <h3 class="featurette-heading text-secondary">Berufsbezeichnung</h3>
+            <p class="lead">
+              Wärme-, Kälte- und Schallschutzisolierermeister<br>(verliehen in Deutschland)
+            </p>
+
+            <h3 class="featurette-heading text-secondary">Zuständige Kammer</h3>
+            <p class="lead">
+              Handwerkskammer für Schwaben<br>
+              Siebentischstraße 52 bis 58<br>
+              86161 Augsburg<br><br>
+              <strong>Berufsrecht:</strong> Handwerksordnung (HwO), abrufbar unter: <a href="https://www.gesetze-im-internet.de/hwo/" target="_blank">gesetze-im-internet.de/hwo/</a>
+            </p>
+
             <h3 class="featurette-heading text-secondary">Umsatzsteuer-ID</h3>
-            <p class="lead">USt-ID: DE [Nummer] (falls vorhanden)</p>
+            <p class="lead">DE XXXXXXXXX</p>
           </div>
         </div>
-      </div>
-      <div class="col-md-5">
-        <img src="images/platzhalter1.jpg" class="featurette-image" alt="Impressum" width="100%">
       </div>
     </div>
   </div>
