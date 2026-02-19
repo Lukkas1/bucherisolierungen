@@ -8,24 +8,9 @@
 </head>
 <body>
 
-<!-- Navbar Grundgerüst von Bootstrap Documentation-->
-<nav class="navbar navbar-expand-lg navbar-dark light sticky-top bg-primary">
-    <div class="container">
-        <a class="navbar-brand text-light fw-bold" href="index.html">Bucher Isolierungen</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link text-light" href="projekte.html">Projekte</a></li>
-                <li class="nav-item"><a class="nav-link text-light" href="dienstleistungen.html">Dienstleistungen</a></li>
-                <li class="nav-item"><a class="nav-link text-light" href="ueber.html">Über mich</a></li>
-                <li class="nav-item"><a class="nav-link text-light" href="kontakt.html">Kontakt</a></li>
-                <li class="nav-item"><a class="nav-link text-light" href="impressum.html">Impressum</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+
+<!-- Navbar aus JavaScript-->
+<div id="navbar-placeholder"></div>
 
 <section id="kontakt" class="py-5 bg-light">
     <h2 class="text-center mb-4 text-primary">Kontaktformular</h2>
@@ -116,6 +101,10 @@
             <div class="col-12">
                 <label for="inputAnmerkung" class="form-label">Anmerkung (optional)</label>
                 <textarea rows="3" name="anmerkung" class="form-control" id="inputAnmerkung"></textarea>
+            </div>
+
+            <div class="col-12">
+                <div data-netlify-recaptcha="true"></div>
             </div>
 
             <div class="col-12">
