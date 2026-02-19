@@ -24,10 +24,28 @@ document.addEventListener('DOMContentLoaded', function() {
     var email = user + '@' + domain;
 
     // Suche ALLE Elemente mit der Klasse 'kontakt-email-placeholder'
-    var emailElements = document.querySelectorAll('.kontakt-email-placeholder');
+    var emailElements = document.querySelectorAll('.kontakt-email');
 
     // Gehe jedes gefundene Element durch und füge die E-Mail ein
     emailElements.forEach(function(element) {
-        element.innerHTML = '<a href="mailto:' + email + '" class="text-light text-decoration-none">' + email + '</a>';
+        element.innerHTML = '<a href="mailto:' + email + '" class="text-decoration-none" style="color: inherit;">' + email + '</a>';
     });
+});
+
+function ladeKomponente(datei, elementId) {
+    fetch(datei)
+        .then(response => {
+            if (!response.ok) throw new Error('Netzwerkfehler');
+            return response.text();
+        })
+        .then(data => {
+            document.getElementById(elementId).innerHTML = data;
+        })
+        .catch(error => console.error('Fehler beim Laden von ' + datei + ':', error));
+}
+
+// Führt die Funktion aus, sobald die Seite lädt
+document.addEventListener("DOMContentLoaded", () => {
+    ladeKomponente('navbar.html', 'navbar-placeholder');
+    ladeKomponente('footer.html', 'footer-placeholder');
 });
