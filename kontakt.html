@@ -30,7 +30,12 @@
     <h2 class="text-center mb-4 text-primary">Kontaktformular</h2>
     <div class="container">
         <hr>
-        <form name="kontaktformular" method="POST" data-netlify="true" class="row g-3 needs-validation" novalidate>
+        <form name="kontaktformular" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" action="/erfolg.html" class="row g-3 needs-validation" novalidate>
+            <input type="hidden" name="subject" value="Neue Kontaktanfrage von %{formName}" />
+            <!-- Honeypot-Feld: unsichtbar für Nutzer, fängt Bots ab -->
+            <p style="display:none">
+                <label>Dieses Feld nicht ausfüllen: <input name="bot-field" /></label>
+            </p>
             <div class="col-md-6">
                 <label for="inputName" class="form-label">Vorname*</label>
                 <input type="text" name="vorname" class="form-control" id="inputName" placeholder="Max" required pattern="[A-Za-zÄÖÜäöüß ]+">
@@ -115,6 +120,10 @@
             <div class="col-12">
                 <label for="inputAnmerkung" class="form-label">Anmerkung (optional)</label>
                 <textarea rows="3" name="anmerkung" class="form-control" id="inputAnmerkung"></textarea>
+            </div>
+
+            <div class="col-12">
+                <div data-netlify-recaptcha="true"></div>
             </div>
 
             <div class="col-12">
